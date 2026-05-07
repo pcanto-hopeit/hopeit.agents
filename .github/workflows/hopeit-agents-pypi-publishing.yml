@@ -63,4 +63,4 @@ jobs:
       - name: Publish Agent Skills plugin to PyPI
         env:
           PYPI_API_TOKEN: ${{ secrets.PYPI_API_TOKEN }}
-        run: make publish-plugin-pypi-test PLUGINFOLDER=plugins/agents/skills
+        run: make publish-plugin-pypi PLUGINFOLDER=plugins/agents/skills

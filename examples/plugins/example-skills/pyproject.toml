@@ -1,6 +1,6 @@
 [project]
 name = "hopeit_agents-example-skills"
-version = "0.1.1b1"
+version = "0.1.1b2"
 
 description = "Example agent skills implemented as a hopeit.engine plugin"
 dynamic = ["readme"]
