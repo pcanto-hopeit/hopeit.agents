@@ -1,18 +1,17 @@
 [project]
-name = "hopeit-agents.mcp-client"
+name = "hopeit_agents-example-skills"
 version = "0.1.1b1"
 
-description = "Hopeit Agents: Model Context Protocol tools client"
+description = "Example agent skills implemented as a hopeit.engine plugin"
 dynamic = ["readme"]
 
-dependencies = [
-    "hopeit.engine>=0.29.0",
-    "mcp>=1.26.0",
-]
+dependencies = ["hopeit.engine>=0.29.0", "hopeit-agents.skills"]
 
 license = "Apache-2.0"
 authors = [
-    { name = "hopeit-agents contributors", email = "opensource@hopeit.com.ar" }
+    { name = "Leo Smerling & Pablo Canto", email = "contact@hopeit.com.ar" },
+    { name = "Leo Smerling", email = "contact@hopeit.com.ar" },
+    { name = "Pablo Canto", email = "contact@hopeit.com.ar" },
 ]
 classifiers = [
     "Intended Audience :: Developers",
@@ -21,7 +20,6 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
-    "Development Status :: 4 - Beta",
     "Framework :: AsyncIO",
 ]
 

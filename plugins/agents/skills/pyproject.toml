@@ -1,18 +1,19 @@
 [project]
-name = "hopeit-agents.mcp-client"
+name = "hopeit-agents.skills"
 version = "0.1.1b1"
 
-description = "Hopeit Agents: Model Context Protocol tools client"
+description = "Hopeit Agents: Skills plugin"
 dynamic = ["readme"]
 
 dependencies = [
     "hopeit.engine>=0.29.0",
-    "mcp>=1.26.0",
 ]
 
 license = "Apache-2.0"
 authors = [
-    { name = "hopeit-agents contributors", email = "opensource@hopeit.com.ar" }
+    { name = "Leo Smerling & Pablo Canto", email = "contact@hopeit.com.ar" },
+    { name = "Leo Smerling", email = "contact@hopeit.com.ar" },
+    { name = "Pablo Canto", email = "contact@hopeit.com.ar" },
 ]
 classifiers = [
     "Intended Audience :: Developers",
